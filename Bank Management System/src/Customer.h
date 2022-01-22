@@ -31,6 +31,7 @@ void Customer::AccountDetails()
               << "CIF Number : " << m_CIFNumber << std::endl;
 }
 
+// Gets the details of the account holder while creating the account
 void Customer::GetUserData()
 {
     //Cleared the screen
