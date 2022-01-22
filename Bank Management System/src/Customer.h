@@ -18,6 +18,7 @@ public:
     void AccountDetails();
 };
 
+// Displays details of the account holder
 void Customer::AccountDetails()
 {
     system("CLS");
