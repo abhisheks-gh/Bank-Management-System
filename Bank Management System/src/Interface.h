@@ -45,32 +45,43 @@ int Interface::MainMenu()
             std::cout << "User Guide";
             UserGuide();  
             break;
+                
         case 2:
             std::cout << " Create New account";
             Customer customer;
-            customer.CreateAccount(); //Implicitly called GetUserData()
+                
+            // Implicitly called GetUserData()
+            customer.CreateAccount(); 
             break;
+                
         case 3:
             std::cout << " Deposit";
             break;
+                
         case 4:
             std::cout << " Withdrawal";
             break;
+                
         case 5:
             std::cout << " Balance Enquiry";
             break;
+                
         case 6:
             std::cout << " Account holder's details";
             customer.AccountDetails(); 
             break;
+                
         case 7:
             std::cout << " Close account";
             break;
+                
         case 8:
             std::cout << " Modify account";
             break;
+                
         case 9:
             break;
+                
         default:
             std::cout << " ERROR 101 : Wrong Choice ";
             break;
