@@ -32,7 +32,8 @@ int Interface::MainMenu()
     std::cout << "                             \n\t\t\t\tEnter your Choice : ";
     std::cin >> choice;
     return choice;
-
+    
+    // yn (Yes/No) = choice (if user wants to continue or not)
     char yn;
     Interface interface;
     do
