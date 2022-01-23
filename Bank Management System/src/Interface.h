@@ -50,7 +50,7 @@ int Interface::MainMenu()
             std::cout << " Create New account";
             Customer customer;
                 
-            // Implicitly called GetUserData()
+            // Implicitly calling GetUserData()
             customer.CreateAccount(); 
             break;
                 
