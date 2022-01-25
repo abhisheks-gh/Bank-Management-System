@@ -7,11 +7,13 @@
 
 int main()
 {
-   //Cleared the screen
+   // Cleared the screen
    system("CLS");
+   
    Interface interface;
-   interface.MainMenu();  //Implicitly called Customer::CreateAccount()
+   //Implicitly called Customer::CreateAccount()
+   interface.MainMenu();  
 
-   //Implicit call pathway :
-   //MainMenu() -> BranchDetails()->CreateAccount()->GetUserData()-> Account Details()
+   // Order in which implicit calls are generated:
+   // MainMenu() -> BranchDetails()->CreateAccount()->GetUserData()-> Account Details()
 } 
